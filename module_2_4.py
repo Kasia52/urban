@@ -4,7 +4,6 @@ not_primes = []
 is_prime = True
 for number in numbers:
     if number <= 1:
-        not_primes.append(number)
         continue
     if number == 2:
         primes.append(number)
