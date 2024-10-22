@@ -25,10 +25,3 @@ for number in numbers:
 print(primes)
 print(not_primes)
 
-
-
-# numbers primes not_primes range
-# for x in range(6):
-#   print(x)
-# else:
-#   print("Finally finished!")
