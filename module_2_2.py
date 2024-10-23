@@ -1,19 +1,9 @@
-first = 1
-second = 2
-third = 3
+first = int(input('Введите первое число: '))
+second = int(input('Введите первое число: '))
+third = int(input('Введите первое число: '))
 if first == second == third:
-    print('salfetka')
+    print(3)
+elif first == second or first == third or second == third:
+    print(2)
 else:
-    print('bipbop')
-
-barry = 28
-john = 40.5
-antony = 33
-if john >= barry:
-    print('John is a better in battle then barry')
-if antony < john:
-    print('antony is upset')
-else:
-    print('barry always win')
-
-
+    print(0)
